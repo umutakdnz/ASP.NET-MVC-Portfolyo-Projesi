@@ -1,0 +1,17 @@
+﻿@model AcunMedyaPortolfyoProject.Models.Certificate
+@{
+    ViewBag.Title = "UpdateCertificate";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Sosyal Medya Güncelleme Sayfası</h2>
+
+
+<form method="post">
+    @Html.HiddenFor(a => a.SertifikaID)
+    <label>Sosyal Medya Linki</label>
+    @Html.TextBoxFor(x => x.SAdi, new { @class = "form-control" }) <br />
+    <label>Sosyal Medya  Adı</label>
+    @Html.TextBoxFor(x => x.SVeren, new { @class = "form-control" }) <br />
+    <button class="btn btn-success">Güncelle</button>
+</form>

@@ -1,0 +1,35 @@
+﻿@model List<AcunMedyaPortolfyoProject.Models.Certificate>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Sosyal Medya Sayfası</h2>
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Sosyal Medya Linki</th>
+                <th>Sosyal Medya Adı</th>
+                <th>Güncelle</th>
+                <th>Sil</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.SertifikaID</td>
+                    <td>@item.SAdi</td>
+                    <td>@item.SVeren</td>
+                    <td><a href="/Certificate/UpdateCertificate/@item.SertifikaID" class="btn btn-success">Güncelle</a></td>
+                    <td><a href="/Certificate/DeleteCertificate/@item.SertifikaID" class="btn btn-danger">Sil</a></td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+    <a href="/Certificate/CreateCertificate/" class="btn btn-dark">Oluştur</a>
+</div>
