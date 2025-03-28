@@ -68,7 +68,7 @@ Bu proje, Acunmedya Akademi’nin "C# Programlama" eğitimi kapsamında verilen 
 
 
 ## 📝 Veritabanı Yapısı
-- ![image](https://github.com/user-attachments/assets/2ba1900b-89e3-434a-85f8-974fed98e5b9)
+- ![Ekran görüntüsü 2025-03-28 113306](https://github.com/user-attachments/assets/f466fd6c-ca9e-4149-af76-c211c9bade03)
 
 
 ## 📜 Sürüm Geçmişi
