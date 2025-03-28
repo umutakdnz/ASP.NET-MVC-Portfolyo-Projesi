@@ -22,5 +22,7 @@ namespace AcunMedyaPortolfyoProject.Models
         public string Image2 { get; set; }
         public string Image3 { get; set; }
         public Nullable<int> CategoryID { get; set; }
+
+        public virtual Category Category { get; set; }
     }
 }
