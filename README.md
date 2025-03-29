@@ -1,5 +1,5 @@
 # Dinamik Portföy Web Sitesi
-Bu proje, Acunmedya Akademi’nin "C# Programlama" eğitimi kapsamında verilen ilk ödev olarak geliştirilmiş dinamik bir portföy web sitesidir. Kişisel yeteneklerimi, projelerimi ve profesyonel deneyimlerimi sergilemek üzere tasarlanmış olup, kullanıcı dostu bir admin paneli sayesinde portföy yönetimini kolaylaştırır ve projelerin hızlı bir şekilde güncellenmesine olanak tanır. Veriler, güvenli bir şekilde SQL Server veritabanında saklanırken, ASP.NET MVC altyapısı ile modern ve işlevsel bir kullanıcı deneyimi sunulmaktadır.
+Bu proje, Acunmedya Akademi’nin "C# Programlama" eğitimi kapsamında verilen ilk proje olarak geliştirilmiş dinamik bir portföy web sitesidir. Kişisel yeteneklerimi, projelerimi ve profesyonel deneyimlerimi sergilemek üzere tasarlanmış olup, kullanıcı dostu bir admin paneli sayesinde portföy yönetimini kolaylaştırır ve projelerin hızlı bir şekilde güncellenmesine olanak tanır. Veriler, güvenli bir şekilde SQL Server veritabanında saklanırken, ASP.NET MVC altyapısı ile modern ve işlevsel bir kullanıcı deneyimi sunulmaktadır.
 
 ## 📝 Öne Çıkan Özellikler
 - **Ana Sayfa**: Ziyaretçilere hoş bir karşılama sağlayan ve siteye genel bir bakış sunan giriş bölümü.
@@ -8,7 +8,7 @@ Bu proje, Acunmedya Akademi’nin "C# Programlama" eğitimi kapsamında verilen 
 - **Öz Geçmiş**: Eğitim, iş deneyimi ve sertifikalarımı içeren kapsamlı bir öz geçmiş bölümü.
 - **Hizmetlerim**: Sağladığım hizmetlerin detaylı açıklamalarını içeren bölüm.
 - **Projelerim**: Üzerinde çalıştığım ve tamamladığım projelere dair ayrıntılı bilgiler.
-- **Referanslarım**: Daha önceki iş deneyimlerim ve işbirliklerimden elde edilen geri.bildirimler.
+- **Referanslarım**: Daha önceki iş deneyimlerim ve işbirliklerimden elde edilen geri bildirimler.
 - **İletişim**: Ziyaretçilerin benimle kolayca iletişim kurabileceği bir form.
 
 ## 🛠️ Teknolojik Altyapı
@@ -54,13 +54,13 @@ Bu proje, Acunmedya Akademi’nin "C# Programlama" eğitimi kapsamında verilen 
 
 ## 🛠️ Admin Paneli
 
-- **Eğitimler**
+- **Deneyimler**
   - ![image](https://github.com/user-attachments/assets/0ddccefd-fd28-4e0e-a948-850b1a1c44d6)
 
-- **Yeni Eğitim Ekleme**
+- **Yeni Deneyim Ekleme**
   - ![image](https://github.com/user-attachments/assets/a8505767-cdec-447c-b68d-e2824b6ab543)
 
-- **Eğitim Güncelleme**
+- **Deneyim Güncelleme**
   - ![image](https://github.com/user-attachments/assets/ccc0639d-f1fa-45a4-80f6-0e3849cf66d0)
 
 ## 📈 İstatistikler
